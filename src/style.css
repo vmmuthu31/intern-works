@@ -9,6 +9,7 @@ button:focus {
 	box-shadow: none !important;
 }
 
+
 ::-webkit-scrollbar {
 	width: 7px;
 }
@@ -107,14 +108,19 @@ button:focus {
 	.navbar-nav .nav-item a::after {
 		display: none !important;
 	}
+	.img-fluid{
+		font-size: 8px;
+	}
 }
+
+
 .navbar-brand {
 	color: rgb(250, 250, 250) !important;
 }
 
 .btn-vio{
 	background: linear-gradient(89.85deg, #DA5FBD 3.73%, #4851F4 99.84%);
-border-radius: 90px;
+	border-radius: 90px;
 }
 
 .navbar-nav .nav-link {

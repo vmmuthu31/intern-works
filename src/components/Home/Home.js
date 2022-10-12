@@ -30,7 +30,7 @@ function Home() {
           <Row
             style={{ fontSize: "10.2px", width: "100%", paddingLeft: "10px" }}
           >
-            <Col xs={3} className="home-header">
+            <Col xs={4} className="home-header">
               <Row>
                 <h6>WAVES/USD</h6>
               </Row>
