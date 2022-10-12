@@ -116,7 +116,7 @@ function Home() {
             </Row>
             <Row>
               <Col>
-                <div style={{ width: 700 }}>
+                <div>
                   <LineChart chartData={userData} />
                 </div>
               </Col>
