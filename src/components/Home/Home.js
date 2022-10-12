@@ -27,8 +27,10 @@ function Home() {
     <section>
       <Container fluid className="home-section" id="home">
         <Container className="home-content">
-          <Row style={{ fontSize: "10.2px" }}>
-            <Col xs={1} className="home-header">
+          <Row
+            style={{ fontSize: "10.2px", width: "100%", paddingLeft: "10px" }}
+          >
+            <Col xs={3} className="home-header">
               <Row>
                 <h6>WAVES/USD</h6>
               </Row>
@@ -36,53 +38,41 @@ function Home() {
                 <h6>Perpetual</h6>
               </Row>
             </Col>
-            <Col xs={1}>
+            <Col xs={3}>
               <h6 style={{ color: "#2BBDB5" }}>421045.7</h6>
             </Col>
 
-            <Col xs={1} style={{ paddingBottom: 20 }}>
+            <Col xs={2} style={{ paddingBottom: 20 }}>
               <Row style={{ color: " #777E91" }}>Mark</Row>
               <Row>41,985.5</Row>
             </Col>
-            <Col xs={1} style={{ paddingBottom: 20 }}>
+            <Col xs={2} style={{ paddingBottom: 20 }}>
               <Row style={{ color: " #777E91" }}>Index</Row>
               <Row>41,754,2</Row>
             </Col>
             <Col xs={1} style={{ paddingBottom: 20 }}>
-              <Row style={{ color: " #777E91" }}>Funding/Countdown</Row>
+              <Row style={{ color: " #777E91" }}>Funding</Row>
               <Row>0.0100% 03:52:12</Row>
             </Col>
-            <Col xs={1} style={{ paddingBottom: 20 }}>
+            <Col xs={2} style={{ paddingBottom: 20, paddingLeft: "20px" }}>
               <Row style={{ color: " #777E91" }}>24h change</Row>
               <Row style={{ color: "#EF3E9E" }}>520.80 +1.25%</Row>
             </Col>
-            <Col xs={1} style={{ paddingBottom: 20 }}>
+            <Col xs={2} style={{ paddingBottom: 20 }}>
               <Row style={{ color: " #777E91" }}>24h high</Row>
               <Row>520.80 +1.25%</Row>
             </Col>
-            <Col xs={1} style={{ paddingBottom: 20 }}>
+            <Col xs={2} style={{ paddingBottom: 20 }}>
               <Row style={{ color: " #777E91" }}>25h low</Row>
               <Row>520.80 +1.25%</Row>
             </Col>
-            <Col xs={1} style={{ paddingBottom: 20 }}>
+            <Col xs={2} style={{ paddingBottom: 20 }}>
               <Row style={{ color: " #777E91" }}>24h volume</Row>
               <Row>75.655.26</Row>
             </Col>
-            <Col xs={1} style={{ paddingBottom: 20 }}>
-              <Row style={{ color: " #777E91" }}>Mark</Row>
-              <Row>41,985.5</Row>
-            </Col>
-            <Col xs={1} style={{ paddingBottom: 20 }}>
-              <Row style={{ color: " #777E91" }}>Mark</Row>
-              <Row>41,985.5</Row>
-            </Col>
-            <Col xs={1} style={{ paddingBottom: 20 }}>
-              <Row style={{ color: " #777E91" }}>Mark</Row>
-              <Row>41,985.5</Row>
-            </Col>
           </Row>
         </Container>
-        <Container>
+        <Container style={{ paddingTop: "30px" }}>
           <Col>
             <Row>
               <Col>Time</Col>
@@ -142,7 +132,7 @@ function Home() {
               </Col>
             </Row>
           </Col>
-          <Col style={{ paddingTop: "62px" }}>
+          <Col style={{ paddingTop: "30px" }}>
             <Row>
               {" "}
               <Col style={{ color: "white" }}>Market Trades</Col>
